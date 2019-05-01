@@ -42,7 +42,7 @@ Here is an example of using filters with both `lzham.compress` and `LZHAMCompres
      >>> compressor = lzham.LZHAMCompressor(filters)
      >>> compressor.compress(b'yourdata')
 
-###Decompression
+### Decompression
 You can easily decompress data using the following snippet:
 
     >>> import lzham

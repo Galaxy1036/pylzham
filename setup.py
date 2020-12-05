@@ -34,7 +34,7 @@ with open('README.md', 'r') as f:
     long_description = f.read()
 
 setup(name='pylzham',
-      version='0.1.1',
+      version='0.1.2',
       author='GaLaXy1036',
       description='Python 3 Wrapper for LZHAM Codec',
       long_description=long_description,

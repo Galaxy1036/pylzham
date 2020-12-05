@@ -14,10 +14,7 @@ class LZHAMCompressor:
         self._reinit = False
 
     def parse_filters(self, filters):
-        if filters is None:
-            filters = {}
-
-        else:
+        if filters is not None:
             _args = [
                      'dict_size_log2',
                      'level',

@@ -160,7 +160,7 @@ static PyObject* pylzham_decompress(PyObject* self, PyObject* args, PyObject* kw
     PyObject *ret;
 
     if (!PyArg_ParseTupleAndKeywords(args, kw,
-                                     "Os#I:lzham_decompress",
+                                     "Os#K:lzham_decompress",
                                      (char **)kwlist,
                                      &pyDecomp_state,
                                      (char **)&compressed_data, &compressed_data_len,

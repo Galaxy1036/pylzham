@@ -68,7 +68,7 @@ namespace lzham
 #define LZHAM_DEFINE_BITWISE_COPYABLE(Q) template<> struct bitwise_copyable<Q> { enum { cFlag = true }; };
 
 #if defined(__APPLE__) || defined(__NetBSD__)
-   #define LZHAM_IS_POD(T) std::__is_pod<T>::__value
+   #define LZHAM_IS_POD(T) std::is_pod<T>::value
 #else
    #define LZHAM_IS_POD(T) __is_pod(T)
 #endif

@@ -59,7 +59,7 @@ b'testtesttesttesttesttesttesttesttesttest'
 
 **Note**: Since there is no offical header for LZHAM you have to give the decompressed data size to the lib (`40` in our case). 
 
-However if you need to decompress many files/data, using the `LZHAMDeompressor` class might be a better idea. Here is a quick example:
+However if you need to decompress many files/data, using the `LZHAMDecompressor` class might be a better idea. Here is a quick example:
 
 ```python
 >>> from lzham import LZHAMDecompressor
